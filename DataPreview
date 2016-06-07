@@ -1,0 +1,21 @@
+#DataPreview
+
+select * from department
+
+department_id, dept_name
+---------------------------
+'115', 'IT'
+'116', 'Sale'
+'117', 'HR'
+'118', 'Finance'
+
+
+select * from employee
+
+
+employee_id, firstname, lastname, birth_date, cell_phone, department_id
+-----------------------------------------------------------------------
+'5', 'Anil', 'Kumar', '2016-05-25', NULL, '115'
+'6', 'Avinash', 'Singh', '2016-05-25', NULL, '115'
+'9', 'Gaurav', 'Agarwal', '2016-05-25', NULL, '118'
+'10', 'Surubhi', 'Batra', '2016-05-25', NULL, '118'
